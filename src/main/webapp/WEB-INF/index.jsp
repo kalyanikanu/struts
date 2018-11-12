@@ -1,4 +1,3 @@
-spring:
-  mvc.view:
-    prefix: /WEB-INF/
-    suffix: .jsp
+<%@ taglib prefix="t" tagdir="/WEB-INF/tags" %>
+
+<t:layout title="Main page"/>
